@@ -60,28 +60,28 @@ public class RiddleMeThis {
 			JOptionPane.showMessageDialog(null,
 					"Sorry! The answer was fire! That was the last question!");
 		}
-		JOptionPane.showMessageDialog(null, "Final Score =" + score);
+		JOptionPane.showMessageDialog(null, "Final Score = " + score);
 		if (score == 4)
-			;
+			
 		{
 			JOptionPane.showMessageDialog(null, "You did great! 100%");
 		}
 		if (score == 3)
-			;
+			
 		{
 			JOptionPane.showMessageDialog(null,
 					"Good Job! You only missed one riddle!");
 		}
 		if (score == 2)
-			;
+			
 		{
 			JOptionPane.showMessageDialog(null,
 					"Eh. I wouldn't choose a career in riddle-solving.");
 		}
-		if (score == 1);{
+		if (score == 1){
 			JOptionPane.showMessageDialog(null, "Ay, Caramba!!");
 		}
-		if (score == 0); {
+		if (score == 0) {
 			JOptionPane.showMessageDialog(null, "...");
 		}
 	}
